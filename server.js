@@ -20,6 +20,7 @@ const morgan = require('morgan');
  connectDB();
 
 app.use('/api/todo', require('./routes/user'));
+app.use('/api/todo/title',require('./routes/todo'));
 //  app.get("/get", (req, res)=>{
 //     res.status(200).json({
 //         "name":"saood"
